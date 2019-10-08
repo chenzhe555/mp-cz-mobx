@@ -1,0 +1,25 @@
+{
+  "name": "mp-cz-mobx",
+  "version": "0.0.1",
+  "description": "小程序 mobx",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chenzhe555/mp-cz-mobx.git"
+  },
+  "keywords": [
+    "mobx",
+    "miniprogram",
+    "小程序",
+    "redux"
+  ],
+  "author": "陈哲是个好孩子",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chenzhe555/mp-cz-mobx/issues"
+  },
+  "homepage": "https://github.com/chenzhe555/mp-cz-mobx#readme"
+}
