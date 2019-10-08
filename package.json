@@ -2,7 +2,8 @@
   "name": "mp-cz-mobx",
   "version": "0.0.1",
   "description": "小程序 mobx",
-  "main": "index.js",
+  "main": "observer.js",
+  "miniprogram": "dist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
