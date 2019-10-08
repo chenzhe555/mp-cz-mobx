@@ -83,7 +83,7 @@ var observer = function(page){
 
   // thanks to Danney
   // Using closure to ignore weapp framework upating props mobx object, causing mobx array initialize fail
-  var _props = mobx.observable(page.props) || {};
+  var _props = mobx.observable(page.props || {}) || {};
   delete page.props;
 
   // Inject props to data ASAP, fix: https://github.com/dao42/wechat-weapp-mobx/issues/17
