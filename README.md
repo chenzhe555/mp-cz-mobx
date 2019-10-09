@@ -1,5 +1,7 @@
 # mp-cz-mobx
-基于 三方库 https://github.com/dao42/wechat-weapp-mobx，增加组件的数据绑定
+基于三方库 https://github.com/dao42/wechat-weapp-mobx
+1.增加组件的数据绑定
+2.修复部分问题，见2
 
 Fixed:
 observer.js: 86行(如果传入的没有props，会mobx报错)
